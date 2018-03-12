@@ -26,7 +26,7 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-md-offset-4 col-md-1">
+            <div class="col-md-offset-5 col-md-3">
                 <div class="form-login">
                     <h4>Login Page</h4>
                     <input type="text" id="userName" class="form-control input-sm chat-input" placeholder="username" />
