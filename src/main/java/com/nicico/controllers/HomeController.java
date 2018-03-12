@@ -20,7 +20,7 @@ public class HomeController {
 
     @ResponseBody
     @RequestMapping("/home")
-    public String dummyMethod(){
+    public String dummyMethod() {
         return "Hello Spring mvc!!!";
     }
 }
