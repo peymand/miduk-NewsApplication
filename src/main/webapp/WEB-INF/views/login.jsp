@@ -31,7 +31,7 @@
                     <h4>Login Page</h4>
                     <input type="text" id="userName" class="form-control input-sm chat-input" placeholder="username" />
                     </br>
-                    <input type="text" id="userRole" class="form-control input-sm chat-input" placeholder="userRole" />
+                    <input type="text" id="userRole" class="form-control input-sm chat-input" placeholder="role" />
                     </br>
                     <div class="wrapper">
             <span class="group-btn">
