@@ -12,6 +12,12 @@ Year: 2018
 */
 @Controller
 public class HomeController {
+
+    @RequestMapping("/")
+    public String homeMethod(){
+        return "login";
+    }
+
     @ResponseBody
     @RequestMapping("/home")
     public String dummyMethod(){
