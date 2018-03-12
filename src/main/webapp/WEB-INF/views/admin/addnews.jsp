@@ -11,7 +11,7 @@
     <title>Add new news</title>
 </head>
 <body>
-<form action="/addnews.do" method="post">
+<form action="/addNews" method="post">
     <table>
         <tr>
             <td>
@@ -20,20 +20,21 @@
         </tr>
         <tr>
             <td>
-                <input type="text" name="newsSubject"/>
+                <input type="text" name="subject"/>
             </td>
         </tr>
         <tr>
             <td>متن</td>
         </tr>
         <tr>
-            <td>
-                <input type="text" name="newsBody"/>
-            </td>
+
         </tr>
         <tr>
-            <td><textarea name="newsBody" cols="30" rows="10"></textarea> </td>
+            <td><textarea name="detail" cols="30" rows="10"></textarea> </td>
         </tr>
+        <td>
+            <input type="submit" value="send"/>
+        </td>
     </table>
 </form>
 </body>
